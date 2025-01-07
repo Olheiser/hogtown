@@ -9,13 +9,13 @@ html {
 
 @font-face {
   font-family: "Engravers MT";
-  src: url('/public/engravers-mt.otf') format("opentype");
+  src: url('/engravers-mt.otf') format("opentype");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Engravers";
-  src: url('/public/engravers-regular.otf') format("opentype");
+  src: url('/engravers-regular.otf') format("opentype");
   font-weight: 400;
 }
 
