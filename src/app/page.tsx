@@ -16,7 +16,7 @@ export default function Home() {
           <Image
             src={logo}
             alt="Hogtown Construction Advisors Logo"
-            width={366}
+            width={500}
             height={500}
             className={styles.hogtownLogo}
           />
