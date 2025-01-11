@@ -8,17 +8,10 @@ html {
 }
 
 @font-face {
-  font-family: "Engravers MT";
-  src: url('/engravers-mt.otf') format("opentype");
+  font-family: "Copperplate";
+  src: url('/copperplategothic.otf') format("opentype");
   font-weight: 500;
 }
-
-@font-face {
-  font-family: "Engravers";
-  src: url('/engravers-regular.otf') format("opentype");
-  font-weight: 400;
-}
-
 
 html,
 body {

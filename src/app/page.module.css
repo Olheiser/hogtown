@@ -23,13 +23,20 @@
 }
 
 .hogtownLogo {
-  filter: opacity(40%);
+  filter: opacity(20%);
   z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content h1, .content h2 {
-  font-family: "Engravers MT", sans-serif;
-    color: #ffffff;  
+  font-family: "Copperplate", sans-serif;
+  text-transform: capitalize;
+  color: #ffffff;  
+  filter: opacity(50%);
+  text-align: center;
 }
 
 .hogtownSubtitle, .comingSoon, .hogtownTitle {
@@ -37,45 +44,20 @@
 }
 
 @media screen and (max-width: 799px) {
-  .content {
-    display: flex;
-    flex-direction: column-reverse; /* Stack elements vertically */
-    align-items: center; /* Center align text over the logo */
-    position: relative; /* Allow stacking of text and logo */
-  }
 
-  .hogtownLogo {
-    position: relative;
-    z-index: 1; /* Keep logo behind the text */
-  }
-
-  .headingContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center text over the logo */
-    align-items: center;
-    z-index: 2; /* Place text above the logo */
-    text-align: center; /* Center text alignment */
-  }
   .hogtownTitle {
-    font-size: 4.5rem; /* Scale title size */
-    padding-bottom: 10px;
+    font-size: 4.6rem; /* Scale title size */
   }
 
   .hogtownSubtitle {
-    font-size: 1.5rem; /* Scale subtitle size */
+    font-size: 1.9rem; /* Scale subtitle size */
     padding-bottom: 30px;
-    margin-top: 10px;
   }
 
   .comingSoon {
     font-size: 1.7rem; /* Scale 'Coming Soon' text */
     margin-top: 20px;
     padding-bottom: 60px;
-  }
-
-  .hogtownLogo {
-    filter: opacity(30%);
   }
 }
 
@@ -84,47 +66,32 @@
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     /* Font Sizing */
   .content h1 {
-    font-size: 5.2rem;
-    padding-top: 35px;
-
+    font-size: 5.5rem;
   }
 
   .hogtownSubtitle {
-    font-size: 1.48rem;
-    padding-top: 10px;
-    padding-left: 20px;
+    font-size: 2.3rem;
+    padding-top: 5px;
   }
 
   .comingSoon {
     font-size: 1.92rem;
-    padding-top: 80px;
-  }
-
-  .hogtownTitle, .comingSoon {
-    margin-left: -130px;
+    padding-top: 50px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .content h1 {
-    font-size: 8rem;
-    padding-top: 35px;
-
+    font-size: 6rem;
   }
 
   .hogtownSubtitle {
-    font-size: 2.3rem;
-    padding-top: 10px;
-    padding-left: 20px;
+    font-size: 2.5rem;
   }
 
   .comingSoon {
-    font-size: 3rem;
-    padding-top: 80px;
-  }
-
-  .hogtownTitle, .comingSoon {
-    margin-left: -170px;
+    font-size: 2.2rem;
+    padding-top: 50px;
   }
 }
 
