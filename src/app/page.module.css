@@ -43,6 +43,10 @@
   font-weight: 400;
 }
 
+.hogtownSubtitle {
+  margin-top: -10px;
+}
+
 @media screen and (max-width: 799px) {
 
   .hogtownTitle {
@@ -55,7 +59,7 @@
   }
 
   .comingSoon {
-    font-size: 1.7rem; /* Scale 'Coming Soon' text */
+    font-size: 1.5rem; /* Scale 'Coming Soon' text */
     margin-top: 20px;
     padding-bottom: 60px;
   }
@@ -71,11 +75,11 @@
 
   .hogtownSubtitle {
     font-size: 2.3rem;
-    padding-top: 5px;
+    margin-top: -15px;
   }
 
   .comingSoon {
-    font-size: 1.92rem;
+    font-size: 1.5rem;
     padding-top: 50px;
   }
 }
@@ -87,10 +91,11 @@
 
   .hogtownSubtitle {
     font-size: 2.5rem;
+    margin-top: -15px;
   }
 
   .comingSoon {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     padding-top: 50px;
   }
 }
