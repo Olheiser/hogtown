@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.pageContainer}>
-        <video className={styles.video} src="/hogtown-video.mp4" autoPlay loop muted />
+        <video className={styles.video} src="/hogtown-video.mp4" autoPlay loop muted playsInline />
         <div className={styles.content}>
           <Image
             src={logo}
